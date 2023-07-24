@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="heading-top">Report Checker Website</h1>
+    </header>
+    <div class="items">
+      <table>
+        <thead>
+          <tr class="heading">
+            <th>Patient Details</th>
+            <th>Component</th>
+            <th>Your value</th>
+            <th>Standard Range</th>
+            <th>Flag</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="hg">
+            <td>
+              <input id="name" type="text" placeholder="Enter your name" />
+            </td>
+            <td>Haemoglobin</td>
+            <td><input id="hg_range" type="number" /></td>
+            <td>4.0 - 11.0</td>
+            <td><input id="hg_report" type="text" /></td>
+          </tr>
+          <tr id="cbc">
+            <td><input id="age" type="text" placeholder="Enter your age" /></td>
+            <td>CBC</td>
+            <td><input id="cbc_range" type="number" /></td>
+            <td>4.4 - 6.0</td>
+            <td><input id="cbc_report" type="text" /></td>
+          </tr>
+          <tr id="sugar">
+            <td>
+              <input
+                id="address"
+                type="text"
+                placeholder="Enter your Address"
+              />
+            </td>
+            <td>Sugar Level</td>
+            <td><input id="sugar_range" type="number" /></td>
+            <td>100 - 125</td>
+            <td><input id="sugar_report" type="text" /></td>
+          </tr>
+          <tr id="rbc">
+            <td>
+              <input
+                id="phone"
+                type="number"
+                placeholder="Enter Phone Number"
+              />
+            </td>
+            <td>RBC</td>
+            <td><input id="rbc_range" type="number" /></td>
+            <td>13.5 - 28.0</td>
+            <td><input id="rbc_report" type="text" /></td>
+          </tr>
+          <tr id="ldl">
+            <td>
+              <input id="email" type="email" placeholder="Enter Email Id" />
+            </td>
+            <td>LDL</td>
+            <td><input id="ldl_range" type="number" /></td>
+            <td>130 - 159</td>
+            <td><input id="ldl_report" type="text" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="btn-div">
+      <button id="btn" onclick="showData()">Check</button>
+      <button id="btn1" onclick="showPrev()">Go Back</button>
+      <button id="btn2" onclick="showMessage()">Submit To Your Doctor</button>
+    </div>
+    <footer class="footer">
+      &copy; All Rights Reserved. <br />
+      Created by Shafqat Irfan.
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>

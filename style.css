@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.heading-top {
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+  color: whitesmoke;
+  padding: 20px;
+  height: 10vh;
+  align-items: center;
+}
+.items {
+  display: flex;
+  justify-content: center;
+}
+
+.items table {
+  /* border: 1px solid gray; */
+  margin: 5% 1%;
+  padding: 2%;
+}
+
+.items table td {
+  /* border: 1px solid gray; */
+  padding: 5px;
+}
+
+.heading {
+  background-color: rgb(169, 108, 108);
+  height: 50px;
+}
+
+#hg {
+  background-color: rgb(218, 199, 199);
+  height: 50px;
+}
+#cbc {
+  background-color: rgb(218, 199, 199);
+  height: 50px;
+}
+#sugar {
+  background-color: rgb(218, 199, 199);
+  height: 50px;
+}
+#rbc {
+  background-color: rgb(218, 199, 199);
+  height: 50px;
+}
+#ldl {
+  background-color: rgb(218, 199, 199);
+  height: 50px;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+#btn {
+  height: 40px;
+  width: 100px;
+  margin: 0 50px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 600;
+}
+#btn:hover {
+  color: blanchedalmond;
+  background-color: brown;
+}
+
+#btn1 {
+  height: 40px;
+  width: 100px;
+  margin: 0 50px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 600;
+  display: none;
+}
+#btn1:hover {
+  color: blanchedalmond;
+  background-color: brown;
+}
+
+#btn2 {
+  height: 40px;
+  width: 30vw;
+  margin: 0 50px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 600;
+  display: none;
+}
+#btn2:hover {
+  color: blanchedalmond;
+  background-color: brown;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: azure;
+  padding: 15px;
+  margin-top: 20px;
+  height: 10vh;
+  align-items: center;
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
